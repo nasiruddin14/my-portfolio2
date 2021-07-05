@@ -11,20 +11,20 @@ body{
 }
 .flex{
     display: flex;
-    margin-bottom: 150px;
+    margin-bottom: 100px;
 }
 .half{
-    width: 50%;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 #pp2{
     width: 600px;
     height: 250px;
-    margin-left: 20px;
 }
 .pp3{
     margin-top: 30px;
-    margin-left: 20px;
 }
 #doses{
     padding-left: 10px;
@@ -34,4 +34,26 @@ body{
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 50px;
+    width: 650px;
+    height: 300px;
+}
+.box{
+    padding: 10px;
+    box-shadow: 15px 15px 40px gray;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+#grad1{
+    border-left: 7px solid;
+    border-image: linear-gradient( red, tomato);
+    border-image-slice:  1;
+}
+#grad2{
+    border-left: 7px solid;
+    border-image: linear-gradient( blue, cyan);
+    border-image-slice:  1;
+}
+footer{
+    text-align: center;
 }
